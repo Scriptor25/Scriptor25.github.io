@@ -1,0 +1,26 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Scriptor25's Website",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Scriptor25/Website.git"
+  },
+  "author": "Felix Schreiber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Scriptor25/Website/issues"
+  },
+  "homepage": "https://Scriptor25.github.io/",
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.9",
+    "@vuepress/theme-default": "^2.0.0-rc.24",
+    "vue": "^3.4.21",
+    "vuepress": "^2.0.0-rc.9"
+  }
+}
