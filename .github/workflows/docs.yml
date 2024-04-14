@@ -43,7 +43,6 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v4
         with:
           # deploy to gh-pages branch
-          repo: Scriptor25/Scriptor25.github.io
           target_branch: master
           # deploy the default output dir of VuePress
           build_dir: docs/.vuepress/dist
